@@ -1,6 +1,6 @@
 .PHONY: compile
 
-export SECRET_KEY_BASE = $(shell mix phx.gen.secret)
+# export SECRET_KEY_BASE = $(shell mix phx.gen.secret)
 
 build:
 	mix deps.get --only prod
